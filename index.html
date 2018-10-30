@@ -1,46 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
     <title>Arkano</title>
 </head>
+
 <body>
-     
-    <nav class="card-panel blue indigo accent-2"> 
-        <a href="#" data-target="slide-out" class="sidenav-trigger">e-Ventas</a>
+    <!-- Sidenav menú navegación-->
+    <nav class="card-panel blue indigo accent-2">
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">e-Ventas</a>
     </nav>
 
-  <ul id="slide-out" class="sidenav blue-grey darken-4">
-      <li class="background indigo accent-3 center"><span class="white-text logo">e-Ventas</span></li>
-    <li ><div class="user-view">
-      <div class="background"></div>
-      <a href="#user"><img class="circle" src="./src/img/binary-1327493_640.jpg"></a>
-      <a href="#name"><span class="white-text name">Alexandra Pierce</span></a>
-      <a href="#email"><span class="white-text email">Online</span></a>
-    </div></li>
-    <li><div class="divider"></div></li>
-    <li class="subheader center white-text"><span>Menu Navegación</span></li>
-    <li><div class="divider"></div></li>
-    <ul class="collapsible">
+    <ul id="slide-out" class="sidenav blue-grey darken-4">
+        <li class="background indigo accent-3 center"><span class="white-text logo">e-Ventas</span></li>
+        <li>
+            <div class="user-view">
+                <div class="background"></div>
+                <a href="#user"><img class="circle" src="./src/img/binary-1327493_640.jpg"></a>
+                <a href="#name"><span class="white-text name">Alexandra Pierce</span></a>
+                <a href="#email"><span class="white-text email">Online</span></a>
+            </div>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li class="subheader center white-text"><span>Menu Navegación</span></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <ul class="collapsible">
             <li><a class="collapsible-header waves-effect" href="#!"><i class="material-icons">dashboard</i>Dashboard</a>
-              <div class="collapsible-body"><i class="material-icons">input</i>Formulario</div>
-              <div class="collapsible-body"><i class="material-icons">insert_chart</i>Estadisticas</div>
+                <div class="collapsible-body"><a href="index.html"><i class="material-icons">input</i>Formulario</a></div>
+                <div class="collapsible-body"><a href="./src/grafica.html"><i class="material-icons">insert_chart</i>Estadisticas</a></div>
             </li>
+        </ul>
+    </ul>
 
-          </ul>
-    
-  </ul>
-        
-<script type="text/javascript">document.addEventListener('DOMContentLoaded', function () {
-    M.AutoInit();
-  });
-</script>
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Header-->
+
+    <div>
+        <header>
+            <h3>Dashboard</h3>
+        </header>
+        <br>
+    </div>
+
+    <!-- Formulario datos Dashboard-->
+    <div class="container">
+        <p>Datos en Dashboard</p>
+        <section class="row">
+                <div class="input-field row">
+                        <input type="text" class="text">
+                        <label class="active" for="first_name2">Nombre Dashboard</label>
+                    </div>
+            <div class="input-field row">
+                <input value="" id="" type="number" class="validate">
+                <label class="active" for="first_name2">Cantidad de nuevas compras</label>
+        </div>
+            <div class="input-field row">
+                <input value="" id="" type="number" class="validate">
+                <label class="active" for="first_name2">Incremento de Compras</label>
+            </div>
+            <div class="input-field row">
+                <input value="" id="" type="number" class="validate">
+                <label class="active" for="first_name2">Cantidad Nuevos Usuarios</label>
+            </div>
+            <div class="input-field row">
+                <input value="" id="" type="number" class="validate">
+                <label class="active" for="first_name2">Cantidad Nuevas Visitas</label>
+            </div>
+            <div class="input-field row">
+            <input type="text" class="datepicker">
+            <label class="active" for="first_name2">Fecha Dashboard</label>
+        </div>
+        <a class="waves-effect indigo accent-2 btn">Ingresar Datos</a>
+    </section>
+    </div>
+
+
+    <script type="text/javascript">document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>
