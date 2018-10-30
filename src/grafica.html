@@ -48,7 +48,7 @@
     <!-- Header-->
 
     <div>
-        <header>
+        <header id="header">
             <h3>Dashboard</h3>
         </header>
         <br>
@@ -56,66 +56,51 @@
 
     <!-- Tarjetas -->
     <div class="row">
-        <div class="col s12 m7">
-            <div class="card">
-                <div class="card-image">
-                    <img src=""><i class="roght-aligned large material-icons">insert_chart</i>
-                </div>
-                <div class="data">
+        <div class="col s12 m9">
+                <div id="ncompras" class="card">
+                        <div class="card-content">
+                                <h6>Nuevas Compras</h6>
+                            </div>
+                        <div class="card-image">
+                            <img src=""><i class="roght-aligned large material-icons">local_mall</i>
+                        </div>
+                        <div class="card-content grey lighten-1">
+                            <a href="#">Más Información</a>
+                        </div>
+                    </div>
+            <div id="icompras" class="card">
+                <div class="card-content">
                     <h6>Incremento Compras</h6>
                 </div>
-                <div class="card-action">
-                    <a href="#">Más Información</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col s12 m7">
-            <div class="card">
                 <div class="card-image">
-                    <img src=""><i class="roght-aligned large material-icons">person_add</i>
-                </div>
-                <div class="data">
-                    <h6>Nuevos Usuarios</h6>
-                </div>
-                <div class="card-action">
+                        <img src=""><i class="roght-aligned large material-icons">insert_chart</i>
+                    </div>
+                <div class="card-content grey lighten-1">
                     <a href="#">Más Información</a>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col s12 m7">
-            <div class="card">
-                <div class="card-image">
-                    <img src=""><i class="roght-aligned large material-icons">local_mall</i>
+            <div id="nusuarios" class="card">
+                    <div class="card-content">
+                        <h6>Nuevos Usuarios</h6>
+                    </div>
+                    <div class="card-image">
+                            <img src=""><i class="roght-aligned large material-icons">person_add</i>
+                        </div>
+                    <div class="card-content grey lighten-1">
+                        <a href="#">Más Información</a>
+                    </div>
                 </div>
-                <div class="data">
-                    <h6>Nuevas Compras</h6>
-                </div>
-                <div class="card-action">
-                    <a href="#">Más Información</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col s12 m7">
-            <div class="card">
-                <div class="card-image">
-                    <img src=""><i class="roght-aligned large material-icons">data_usage</i>
-                </div>
-                <div class="data">
-                    <h6>Nuevas Visitas</h6>
-                </div>
-                <div class="card-action">
-                    <a href="#">Más Información</a>
-                </div>
-            </div>
+                    <div id="nvisitas" class="card">
+                            <div class="card-content">
+                                <h6>Nuevas Visitas</h6>
+                            </div>
+                            <div class="card-image">
+                                    <img src=""><i class="roght-aligned large material-icons">data_usage</i>
+                                </div>
+                            <div class="card-content grey lighten-1">
+                                <a href="#">Más Información</a>
+                            </div>
+                        </div>
         </div>
     </div>
 
@@ -127,6 +112,7 @@
     </script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

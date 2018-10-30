@@ -58,32 +58,32 @@
     <div class="container">
         <p>Datos en Dashboard</p>
         <section class="row">
-                <div class="input-field row">
-                        <input type="text" class="text">
-                        <label class="active" for="first_name2">Nombre Dashboard</label>
-                    </div>
             <div class="input-field row">
-                <input value="" id="" type="number" class="validate">
-                <label class="active" for="first_name2">Cantidad de nuevas compras</label>
-        </div>
-            <div class="input-field row">
-                <input value="" id="" type="number" class="validate">
-                <label class="active" for="first_name2">Incremento de Compras</label>
+                <input id="nDashboard" type="text" class="text">
+                <label class="active">Nombre Dashboard</label>
             </div>
             <div class="input-field row">
-                <input value="" id="" type="number" class="validate">
-                <label class="active" for="first_name2">Cantidad Nuevos Usuarios</label>
+                <input id="cnCompras" type="number" class="validate">
+                <label class="active">Cantidad de nuevas compras</label>
             </div>
             <div class="input-field row">
-                <input value="" id="" type="number" class="validate">
-                <label class="active" for="first_name2">Cantidad Nuevas Visitas</label>
+                <input id="inCompras" type="number" class="validate">
+                <label class="active">Incremento de Compras</label>
             </div>
             <div class="input-field row">
-            <input type="text" class="datepicker">
-            <label class="active" for="first_name2">Fecha Dashboard</label>
-        </div>
-        <a class="waves-effect indigo accent-2 btn">Ingresar Datos</a>
-    </section>
+                <input id="cnUsuarios" type="number" class="validate">
+                <label class="active">Cantidad Nuevos Usuarios</label>
+            </div>
+            <div class="input-field row">
+                <input id="cnVisitas" type="number" class="validate">
+                <label class="active">Cantidad Nuevas Visitas</label>
+            </div>
+            <div class="input-field row">
+                <input id="fecha" type="text" class="datepicker">
+                <label class="active">Fecha Dashboard</label>
+            </div>
+            <a id="btn" class="waves-effect indigo accent-2 btn">Ingresar Datos</a>
+        </section>
     </div>
 
 
@@ -93,6 +93,7 @@
     </script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./src/app.js"></script>
 </body>
 
 </html>

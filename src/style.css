@@ -14,3 +14,24 @@ section {
     box-sizing: border-box;
 
 }
+
+.card {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#ncompras {
+    background-color: #40c4ff;
+}
+
+#icompras {
+    background-color: #00b248;
+}
+
+#nusuarios {
+    background-color: #ffa000;
+}
+
+#nvisitas {
+    background-color: #f44336;
+}
